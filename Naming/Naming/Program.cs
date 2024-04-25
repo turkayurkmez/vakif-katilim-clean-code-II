@@ -67,7 +67,7 @@ List<int[]> getFlaggedCells()
 
     foreach (var cell in cellsOnABoard)
     {
-        if (cell[0] == (int)CellType.Flagged)
+        if (cell[0] == CellTypes.Flagged)
         {
             flaggedCells.Add(cell);
         }
@@ -84,6 +84,13 @@ public enum CellType
     Exploded = 6
 }
 
+public class CellTypes
+{
+    public const int Normal = 1;
+    public const int Flagged = 4;
+    public const int Exploded = 6;
+
+}
 
 
 
