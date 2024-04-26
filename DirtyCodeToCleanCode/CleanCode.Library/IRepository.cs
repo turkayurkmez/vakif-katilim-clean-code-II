@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CleanCode
+namespace CleanCode.Library
 {
-    public class Company
+    public interface IRepository<T> where T : class, IEntity
     {
-        public string Name { get; set; }
-        public double HourlyPrice { get; set; }
+        IList<T> GetAll();
     }
 }

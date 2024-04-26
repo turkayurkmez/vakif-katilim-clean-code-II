@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirtyCode", "DirtyCode\Dirt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanCode", "CleanCode\CleanCode.csproj", "{DDC50DF8-0F21-4925-93DC-DA4041EE5CAC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanCode.Library", "CleanCode.Library\CleanCode.Library.csproj", "{5ACF93F7-F67D-4280-BDCA-EE1E0B5DA6B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{DDC50DF8-0F21-4925-93DC-DA4041EE5CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDC50DF8-0F21-4925-93DC-DA4041EE5CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDC50DF8-0F21-4925-93DC-DA4041EE5CAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ACF93F7-F67D-4280-BDCA-EE1E0B5DA6B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ACF93F7-F67D-4280-BDCA-EE1E0B5DA6B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ACF93F7-F67D-4280-BDCA-EE1E0B5DA6B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ACF93F7-F67D-4280-BDCA-EE1E0B5DA6B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
